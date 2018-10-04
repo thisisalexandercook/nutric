@@ -32,7 +32,7 @@ std::cout << "Please Enter Caloric Content for 100g of this food : "<< std::endl
   int kcal = ((t[0] + t[1])*4) + (t[2]*9);
   std::cout << "Total Caloric Content is: " << kcal;
 
-  std::ofstream outf(food1.c_s, std::ios::app);
+  std::ofstream outf(food1, std::ios::app);
     outf << food1 << std::endl;
     outf << t[0] << std:: endl;
     outf << t[1] << std:: endl;
